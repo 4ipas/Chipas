@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36" version="29.4.0">
   <diagram name="Страница-1" id="Ych0G0gRSrht9LeBgbia">
-    <mxGraphModel dx="1968" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2583" dy="2569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,6 +31,15 @@
         </mxCell>
         <mxCell id="PrucuJiq2v1ySm0NQdjV-5" edge="1" parent="1" source="TyMCLmbpCjQ2sgSEGWWK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="PrucuJiq2v1ySm0NQdjV-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT4qJqZL7y22ukNufQu-106" edge="1" parent="1" source="TyMCLmbpCjQ2sgSEGWWK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8WT4qJqZL7y22ukNufQu-107" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="122" />
+              <mxPoint x="790" y="414" />
+            </Array>
+            <mxPoint x="790" y="460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TyMCLmbpCjQ2sgSEGWWK-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Создать слепок" vertex="1">
           <mxGeometry height="60" width="120" x="615" y="92" as="geometry" />
@@ -683,6 +692,15 @@
         </mxCell>
         <mxCell id="8WT4qJqZL7y22ukNufQu-102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Сформировать сессию&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="440" y="2210" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT4qJqZL7y22ukNufQu-109" edge="1" parent="1" source="8WT4qJqZL7y22ukNufQu-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8WT4qJqZL7y22ukNufQu-108" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT4qJqZL7y22ukNufQu-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Сформировать сводную по подъездам" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="384" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT4qJqZL7y22ukNufQu-108" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Сформировать сводную по домам" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="524" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
