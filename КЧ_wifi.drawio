@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36" version="29.4.0">
   <diagram name="Страница-1" id="Ych0G0gRSrht9LeBgbia">
-    <mxGraphModel dx="2066" dy="2289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1968" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,8 +29,11 @@
         <mxCell id="TyMCLmbpCjQ2sgSEGWWK-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Локация" vertex="1">
           <mxGeometry height="80" width="80" x="50" y="910" as="geometry" />
         </mxCell>
-        <mxCell id="TyMCLmbpCjQ2sgSEGWWK-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Собрать слепок" vertex="1">
-          <mxGeometry height="60" width="120" x="610" y="920" as="geometry" />
+        <mxCell id="PrucuJiq2v1ySm0NQdjV-5" edge="1" parent="1" source="TyMCLmbpCjQ2sgSEGWWK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PrucuJiq2v1ySm0NQdjV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TyMCLmbpCjQ2sgSEGWWK-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Создать слепок" vertex="1">
+          <mxGeometry height="60" width="120" x="630" y="920" as="geometry" />
         </mxCell>
         <mxCell id="TyMCLmbpCjQ2sgSEGWWK-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Условия сканирования" vertex="1">
           <mxGeometry height="100" width="150" x="150" y="1030" as="geometry">
@@ -55,7 +58,7 @@
         <mxCell id="TyMCLmbpCjQ2sgSEGWWK-25" parent="TyMCLmbpCjQ2sgSEGWWK-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="2. Исключить случайные сигналы (2/3)&amp;nbsp;" vertex="1">
           <mxGeometry height="50" width="160" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="TyMCLmbpCjQ2sgSEGWWK-26" parent="TyMCLmbpCjQ2sgSEGWWK-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="3. Сгладить результаты (усреднить)" vertex="1">
+        <mxCell id="TyMCLmbpCjQ2sgSEGWWK-26" parent="TyMCLmbpCjQ2sgSEGWWK-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="3. Сгладить результаты: сгруппировать по МАС, усреднить RSSI" vertex="1">
           <mxGeometry height="50" width="160" y="130" as="geometry" />
         </mxCell>
         <mxCell id="TyMCLmbpCjQ2sgSEGWWK-39" edge="1" parent="1" source="TyMCLmbpCjQ2sgSEGWWK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TyMCLmbpCjQ2sgSEGWWK-30">
@@ -147,6 +150,29 @@
         </mxCell>
         <mxCell id="PrucuJiq2v1ySm0NQdjV-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h1&gt;Слепок локации&lt;/h1&gt;" vertex="1">
           <mxGeometry height="30" width="320" x="270" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="PrucuJiq2v1ySm0NQdjV-2" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Набор данных" vertex="1">
+          <mxGeometry height="100" width="150" x="615" y="1030" as="geometry">
+            <mxRectangle height="30" width="60" x="174" y="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PrucuJiq2v1ySm0NQdjV-3" parent="PrucuJiq2v1ySm0NQdjV-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* MAC-адрес" vertex="1">
+          <mxGeometry height="40" width="150" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PrucuJiq2v1ySm0NQdjV-4" parent="PrucuJiq2v1ySm0NQdjV-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* RSSI" vertex="1">
+          <mxGeometry height="30" width="150" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PrucuJiq2v1ySm0NQdjV-6" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Classname" vertex="1">
+          <mxGeometry height="104" width="140" x="1880" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="PrucuJiq2v1ySm0NQdjV-7" parent="PrucuJiq2v1ySm0NQdjV-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PrucuJiq2v1ySm0NQdjV-8" parent="PrucuJiq2v1ySm0NQdjV-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PrucuJiq2v1ySm0NQdjV-9" parent="PrucuJiq2v1ySm0NQdjV-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="140" y="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
