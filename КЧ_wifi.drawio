@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36" version="29.4.0">
   <diagram name="Страница-1" id="Ych0G0gRSrht9LeBgbia">
-    <mxGraphModel dx="2431" dy="2487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="2063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -635,6 +635,14 @@
         </mxCell>
         <mxCell id="8WT4qJqZL7y22ukNufQu-77" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="50" width="50" x="1520" y="1762" as="geometry" />
+        </mxCell>
+        <mxCell id="bUcF4LgLgo7ZBaGYQ4iv-21" edge="1" parent="1" source="8WT4qJqZL7y22ukNufQu-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" target="3HrHV6M2ES_KFzlynhFm-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1545" y="2440" />
+              <mxPoint x="75" y="2440" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="8WT4qJqZL7y22ukNufQu-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Завершен" vertex="1">
           <mxGeometry height="30" width="170" x="1460" y="1827" as="geometry" />
