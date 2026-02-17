@@ -447,7 +447,7 @@
           <mxGeometry height="60" width="120" x="630" y="1037" as="geometry" />
         </mxCell>
         <mxCell id="8WT4qJqZL7y22ukNufQu-11" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Фоновое сканирование" vertex="1">
-          <mxGeometry height="150" width="150" x="180" y="1157" as="geometry">
+          <mxGeometry height="190" width="150" x="180" y="1157" as="geometry">
             <mxRectangle height="30" width="60" x="174" y="190" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -460,8 +460,8 @@
         <mxCell id="8WT4qJqZL7y22ukNufQu-13" parent="8WT4qJqZL7y22ukNufQu-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* Лимит: 10 000 записей" vertex="1">
           <mxGeometry height="30" width="150" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="FjbyWcDZiVf6lEAsJlf2-77" parent="8WT4qJqZL7y22ukNufQu-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* Данные: MAC и RSSI" vertex="1">
-          <mxGeometry height="30" width="150" y="120" as="geometry" />
+        <mxCell id="FjbyWcDZiVf6lEAsJlf2-77" parent="8WT4qJqZL7y22ukNufQu-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* 1 запись = набор данных одного скана: MAC и RSSI" vertex="1">
+          <mxGeometry height="70" width="150" y="120" as="geometry" />
         </mxCell>
         <mxCell id="8WT4qJqZL7y22ukNufQu-14" edge="1" parent="1" source="8WT4qJqZL7y22ukNufQu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="8WT4qJqZL7y22ukNufQu-11">
           <mxGeometry relative="1" as="geometry">
@@ -706,7 +706,7 @@
           <mxGeometry height="30" width="570" x="60" y="2300" as="geometry" />
         </mxCell>
         <mxCell id="3HrHV6M2ES_KFzlynhFm-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Массив обработанных записей уборщика" vertex="1">
-          <mxGeometry height="30" width="60" x="60" y="1680" as="geometry" />
+          <mxGeometry height="60" width="100" x="40" y="1650" as="geometry" />
         </mxCell>
         <mxCell id="3HrHV6M2ES_KFzlynhFm-18" edge="1" parent="1" source="3HrHV6M2ES_KFzlynhFm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="3HrHV6M2ES_KFzlynhFm-14" value="">
           <mxGeometry relative="1" as="geometry" />
