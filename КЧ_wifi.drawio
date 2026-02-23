@@ -1036,18 +1036,18 @@
           <mxGeometry height="60" width="120" x="1137" y="3053" as="geometry" />
         </mxCell>
         <mxCell id="FjbyWcDZiVf6lEAsJlf2-49" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Итог i-ого этажа" vertex="1">
-          <mxGeometry height="310" width="150" x="1122" y="3210" as="geometry">
+          <mxGeometry height="360" width="150" x="1122" y="3210" as="geometry">
             <mxRectangle height="30" width="60" x="174" y="190" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FjbyWcDZiVf6lEAsJlf2-50" parent="FjbyWcDZiVf6lEAsJlf2-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* Проходим последовательно по парам соседних сканов:&lt;br&gt;Если пара одинаковая, то разницу времени прибавляем к этажу.&lt;br&gt;Если этажи разные (1,2), то время поделить поровну" vertex="1">
-          <mxGeometry height="150" width="150" y="30" as="geometry" />
+        <mxCell id="FjbyWcDZiVf6lEAsJlf2-50" parent="FjbyWcDZiVf6lEAsJlf2-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* Проходим последовательно по парам соседних сканов:&lt;div&gt;&lt;br&gt;Если пара одинаковая, то разницу времени прибавляем к этажу.&lt;br&gt;Если этажи разные (1,2), то время поделить поровну&lt;br&gt;Если этаж не определен для 1 или 2 сканов, то время не считать&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="150" y="30" as="geometry" />
         </mxCell>
         <mxCell id="FjbyWcDZiVf6lEAsJlf2-52" parent="FjbyWcDZiVf6lEAsJlf2-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* Если итог для i-ого этажа меньше t_min, то итог такого этажа = false" vertex="1">
-          <mxGeometry height="80" width="150" y="180" as="geometry" />
+          <mxGeometry height="80" width="150" y="230" as="geometry" />
         </mxCell>
         <mxCell id="FjbyWcDZiVf6lEAsJlf2-62" parent="FjbyWcDZiVf6lEAsJlf2-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* Посчитать количество принятых этажей, где итог = true" vertex="1">
-          <mxGeometry height="50" width="150" y="260" as="geometry" />
+          <mxGeometry height="50" width="150" y="310" as="geometry" />
         </mxCell>
         <mxCell id="FjbyWcDZiVf6lEAsJlf2-54" edge="1" parent="1" source="FjbyWcDZiVf6lEAsJlf2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FjbyWcDZiVf6lEAsJlf2-53" value="">
           <mxGeometry relative="1" as="geometry">
