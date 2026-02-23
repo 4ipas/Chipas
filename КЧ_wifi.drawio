@@ -1026,7 +1026,7 @@
         <mxCell id="FjbyWcDZiVf6lEAsJlf2-51" edge="1" parent="1" source="FjbyWcDZiVf6lEAsJlf2-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" target="FjbyWcDZiVf6lEAsJlf2-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FjbyWcDZiVf6lEAsJlf2-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Рассчитать время для каждого этажа" vertex="1">
+        <mxCell id="FjbyWcDZiVf6lEAsJlf2-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Рассчитать время присутствия для каждого этажа" vertex="1">
           <mxGeometry height="60" width="120" x="940" y="3053" as="geometry" />
         </mxCell>
         <mxCell id="FjbyWcDZiVf6lEAsJlf2-49" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Время i-ого этажа" vertex="1">
@@ -1095,7 +1095,7 @@
         <mxCell id="FjbyWcDZiVf6lEAsJlf2-69" parent="FjbyWcDZiVf6lEAsJlf2-67" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* Если результат меньше допустимого, то уборка &quot;Не выполнена&quot;" vertex="1">
           <mxGeometry height="80" width="150" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="FjbyWcDZiVf6lEAsJlf2-70" parent="FjbyWcDZiVf6lEAsJlf2-67" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* Допуск - 0.7" vertex="1">
+        <mxCell id="FjbyWcDZiVf6lEAsJlf2-70" parent="FjbyWcDZiVf6lEAsJlf2-67" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* Допуск - 0.8" vertex="1">
           <mxGeometry height="30" width="150" y="180" as="geometry" />
         </mxCell>
         <mxCell id="FjbyWcDZiVf6lEAsJlf2-74" edge="1" parent="1" source="FjbyWcDZiVf6lEAsJlf2-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" target="FjbyWcDZiVf6lEAsJlf2-67">
@@ -1155,7 +1155,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="erMpfBfvdYqfxD58Qi2S-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillStyle=auto;fillColor=none;dashed=1;" value="" vertex="1">
-          <mxGeometry height="120" width="430" x="686" y="3023" as="geometry" />
+          <mxGeometry height="120" width="430" x="688" y="3013" as="geometry" />
         </mxCell>
         <mxCell id="erMpfBfvdYqfxD58Qi2S-17" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Рассчитать итоги&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="134" x="836" y="3023" as="geometry" />
