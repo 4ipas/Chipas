@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36" version="29.6.0" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36" version="29.5.2" pages="7">
   <diagram name="Страница-1" id="Ych0G0gRSrht9LeBgbia">
-    <mxGraphModel dx="984" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1584" dy="2013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1133,6 +1133,54 @@
             <mxPoint x="1403.58" y="3113" as="sourcePoint" />
             <mxPoint x="1403.58" y="3210" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h1&gt;Определение местоположения уборщика&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="182" width="570" x="2325" y="2250" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-9" edge="1" parent="1" source="bATsj_CNBrTqh0k4qmBd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bATsj_CNBrTqh0k4qmBd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Слепок" vertex="1">
+          <mxGeometry height="80" width="80" x="2008" y="2630" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Массив слепком уборщика" vertex="1">
+          <mxGeometry height="60" width="100" x="1988" y="2550" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-11" edge="1" parent="1" source="bATsj_CNBrTqh0k4qmBd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bATsj_CNBrTqh0k4qmBd-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Выбрать список сетей&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2141" y="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-13" edge="1" parent="1" source="bATsj_CNBrTqh0k4qmBd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="bATsj_CNBrTqh0k4qmBd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-18" edge="1" parent="1" source="bATsj_CNBrTqh0k4qmBd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bATsj_CNBrTqh0k4qmBd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-22" edge="1" parent="1" source="bATsj_CNBrTqh0k4qmBd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bATsj_CNBrTqh0k4qmBd-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Получить список всех локаций по совпадению&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2329.94" y="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-14" edge="1" parent="1" source="bATsj_CNBrTqh0k4qmBd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="bATsj_CNBrTqh0k4qmBd-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-12" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Слепки эталон" vertex="1">
+          <mxGeometry height="101" width="100" x="2339.94" y="2430" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-15" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Условия отбора" vertex="1">
+          <mxGeometry height="150" width="160" x="2309.94" y="2750" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-17" parent="bATsj_CNBrTqh0k4qmBd-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* Исключить слабые сигналы (-80 дБц и меньше)" vertex="1">
+          <mxGeometry height="50" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-16" parent="bATsj_CNBrTqh0k4qmBd-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* Хотя бы одна запись Wi-Fi сети слепка уборщика найдена в эталонном слепке" vertex="1">
+          <mxGeometry height="70" width="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Выбрать список сетей&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2513" y="2640" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
