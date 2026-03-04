@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36" version="29.5.2" pages="7">
   <diagram name="Страница-1" id="Ych0G0gRSrht9LeBgbia">
-    <mxGraphModel dx="1584" dy="2013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1141" dy="1777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1135,7 +1135,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bATsj_CNBrTqh0k4qmBd-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h1&gt;Определение местоположения уборщика&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="182" width="570" x="2325" y="2250" as="geometry" />
+          <mxGeometry height="182" width="570" x="2101" y="2260" as="geometry" />
         </mxCell>
         <mxCell id="bATsj_CNBrTqh0k4qmBd-9" edge="1" parent="1" source="bATsj_CNBrTqh0k4qmBd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bATsj_CNBrTqh0k4qmBd-8">
           <mxGeometry relative="1" as="geometry" />
@@ -1161,7 +1161,7 @@
         <mxCell id="bATsj_CNBrTqh0k4qmBd-22" edge="1" parent="1" source="bATsj_CNBrTqh0k4qmBd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bATsj_CNBrTqh0k4qmBd-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bATsj_CNBrTqh0k4qmBd-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Получить список всех локаций по совпадению&lt;/div&gt;" vertex="1">
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Получить слепки всех совпавших локаций&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="2329.94" y="2640" as="geometry" />
         </mxCell>
         <mxCell id="bATsj_CNBrTqh0k4qmBd-14" edge="1" parent="1" source="bATsj_CNBrTqh0k4qmBd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="bATsj_CNBrTqh0k4qmBd-10">
@@ -1179,8 +1179,8 @@
         <mxCell id="bATsj_CNBrTqh0k4qmBd-16" parent="bATsj_CNBrTqh0k4qmBd-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* Хотя бы одна запись Wi-Fi сети слепка уборщика найдена в эталонном слепке" vertex="1">
           <mxGeometry height="70" width="160" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="bATsj_CNBrTqh0k4qmBd-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Выбрать список сетей&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="2513" y="2640" as="geometry" />
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Рассчитать соответствие слепка уборщика с каждым эталонным слепком" vertex="1">
+          <mxGeometry height="60" width="167" x="2513" y="2640" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
