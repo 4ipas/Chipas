@@ -1179,8 +1179,36 @@
         <mxCell id="bATsj_CNBrTqh0k4qmBd-16" parent="bATsj_CNBrTqh0k4qmBd-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* Хотя бы одна запись Wi-Fi сети слепка уборщика найдена в эталонном слепке" vertex="1">
           <mxGeometry height="70" width="160" y="80" as="geometry" />
         </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-26" edge="1" parent="1" source="bATsj_CNBrTqh0k4qmBd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2590" y="2750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-30" edge="1" parent="1" source="bATsj_CNBrTqh0k4qmBd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bATsj_CNBrTqh0k4qmBd-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2730" y="2670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bATsj_CNBrTqh0k4qmBd-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Рассчитать соответствие слепка уборщика с каждым эталонным слепком" vertex="1">
-          <mxGeometry height="60" width="167" x="2513" y="2640" as="geometry" />
+          <mxGeometry height="60" width="167" x="2506.44" y="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-27" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Функция расчета" vertex="1">
+          <mxGeometry height="210" width="160" x="2733.5" y="2753" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-28" parent="bATsj_CNBrTqh0k4qmBd-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="1. Исключить локации с коэффициентом порога выше допустимого (например 0.8)" vertex="1">
+          <mxGeometry height="70" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-29" parent="bATsj_CNBrTqh0k4qmBd-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="2. Выбрать минимальное значение функции из оставшихся" vertex="1">
+          <mxGeometry height="60" width="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-33" parent="bATsj_CNBrTqh0k4qmBd-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="3. Если оставшихся нет, то не найден" vertex="1">
+          <mxGeometry height="50" width="160" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-32" edge="1" parent="1" source="bATsj_CNBrTqh0k4qmBd-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bATsj_CNBrTqh0k4qmBd-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bATsj_CNBrTqh0k4qmBd-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Выбрать этаж" vertex="1">
+          <mxGeometry height="60" width="167" x="2730" y="2640" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
