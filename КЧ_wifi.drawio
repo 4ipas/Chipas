@@ -1370,7 +1370,7 @@
           <mxGeometry height="30" width="150" y="100" as="geometry" />
         </mxCell>
         <mxCell id="qwD1afx18CRb-oSV74ea-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h1&gt;Построение временного ряда&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="30" width="570" x="2756.5" y="2439.5" as="geometry" />
+          <mxGeometry height="30" width="570" x="2620" y="3043" as="geometry" />
         </mxCell>
         <mxCell id="qwD1afx18CRb-oSV74ea-11" edge="1" parent="1" source="qwD1afx18CRb-oSV74ea-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="qwD1afx18CRb-oSV74ea-8">
           <mxGeometry relative="1" as="geometry" />
@@ -1401,6 +1401,47 @@
         </mxCell>
         <mxCell id="qwD1afx18CRb-oSV74ea-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Определить локацию интервала" vertex="1">
           <mxGeometry height="60" width="120" x="3106.5" y="2830" as="geometry" />
+        </mxCell>
+        <mxCell id="qwD1afx18CRb-oSV74ea-16" edge="1" parent="1" source="qwD1afx18CRb-oSV74ea-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qwD1afx18CRb-oSV74ea-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwD1afx18CRb-oSV74ea-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Старт" vertex="1">
+          <mxGeometry height="80" width="80" x="2499.94" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="qwD1afx18CRb-oSV74ea-20" edge="1" parent="1" source="qwD1afx18CRb-oSV74ea-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qwD1afx18CRb-oSV74ea-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwD1afx18CRb-oSV74ea-23" edge="1" parent="1" source="qwD1afx18CRb-oSV74ea-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qwD1afx18CRb-oSV74ea-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwD1afx18CRb-oSV74ea-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Подготовить данные&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2661.94" y="3170" as="geometry" />
+        </mxCell>
+        <mxCell id="qwD1afx18CRb-oSV74ea-17" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Итог i-ого этажа" vertex="1">
+          <mxGeometry height="130" width="150" x="2646.94" y="3320" as="geometry">
+            <mxRectangle height="30" width="60" x="174" y="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qwD1afx18CRb-oSV74ea-18" parent="qwD1afx18CRb-oSV74ea-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* задать шаг Δt" vertex="1">
+          <mxGeometry height="50" width="150" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qwD1afx18CRb-oSV74ea-19" parent="qwD1afx18CRb-oSV74ea-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="* вычислить количество интервалов" vertex="1">
+          <mxGeometry height="50" width="150" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qwD1afx18CRb-oSV74ea-25" edge="1" parent="1" source="qwD1afx18CRb-oSV74ea-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qwD1afx18CRb-oSV74ea-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwD1afx18CRb-oSV74ea-22" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Обработать интервалы" vertex="1">
+          <mxGeometry height="60" width="205" x="2864" y="3170" as="geometry" />
+        </mxCell>
+        <mxCell id="qwD1afx18CRb-oSV74ea-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Зарешение" vertex="1">
+          <mxGeometry height="80" width="80" x="3190" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="qwD1afx18CRb-oSV74ea-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Массив интервалов с локациями или null" vertex="1">
+          <mxGeometry height="30" width="130" x="3165" y="3260" as="geometry" />
+        </mxCell>
+        <mxCell id="qwD1afx18CRb-oSV74ea-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Сигнал о необходимости построить временной ряд" vertex="1">
+          <mxGeometry height="30" width="165.06" x="2477.4700000000003" y="3277" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
